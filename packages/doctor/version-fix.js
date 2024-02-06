@@ -17,7 +17,7 @@ try {
     // looping on each option
     options.forEach(e => {
         results = replace.sync(e);
-        console.log('Replacing "' + e.from + '" by "' + e.to + '"  results:', results[0].hasChanged);
+        console.log('Replacing "' + e.from + '" by "' + e.to);
     });
 
 } catch (error) {
