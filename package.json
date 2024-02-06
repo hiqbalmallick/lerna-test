@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish": "npx -p lerna@6.0.3 lerna run tsc && npx -p lerna@6.0.3 lerna publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "lerna": "^6.0.3",
+    "replace-in-file": "^7.1.0",
+    "typescript": "^5.3.3"
+  }
+}

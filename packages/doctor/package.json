@@ -22,10 +22,11 @@
     "url": "git+https://github.com/hiqbalmallick/lerna-test.git"
   },
   "scripts": {
-    "tsc": "tsc",
+    "tsc": "tsc && node version-fix.js",
     "test": "node ./__tests__/doctor.test.js"
   },
   "bugs": {
     "url": "https://github.com/hiqbalmallick/lerna-test/issues"
-  }
+  },
+  "gitHead": "5cce0de5578950d15027ee4c90886c3f86ff7a14"
 }

@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+node_modules
+
+.env
+cache
+.jest
+packages/doctor/.jest/cache
+packages/patient/.jest
+packages/scheduler/dist
+
+externals-old
+*.log
+
+**/dist
+**/lib
+**/__tests__
