@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useWorkspaces": true,
+  "scope": "@test-lerna-sdk",
   "version": "independent",
   "packages": [
     "./packages/*"
