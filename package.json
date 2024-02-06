@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "publish": "npx -p lerna@6.0.3 lerna run tsc && node version-fix.js && npx -p lerna@6.0.3 lerna publish"
+    "build": "npx -p lerna@6.0.3 lerna run tsc && node version-fix.js",
+    "publish": "npx -p lerna@6.0.3 lerna publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
