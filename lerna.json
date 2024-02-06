@@ -6,5 +6,8 @@
     "publish": {
       "conventionalCommits": true
     }
-  }
+  },
+  "packages": [
+    "packages/*"
+  ]
 }
