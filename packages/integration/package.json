@@ -1,6 +1,6 @@
 {
   "name": "integration",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@test-sdk/doctor": "^0.2.1",
-    "@test-sdk/patient": "^0.2.1",
-    "@test-sdk/scheduler": "^0.2.1",
+    "@test-sdk/doctor": "^0.2.2",
+    "@test-sdk/patient": "^0.2.2",
+    "@test-sdk/scheduler": "^0.2.2",
     "ts-node": "^7.0.1"
   },
   "gitHead": "a23fa7aa6d5aad9644155a918e42dc2dad977cb8"
