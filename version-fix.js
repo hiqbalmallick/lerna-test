@@ -4,9 +4,9 @@ const versionDoctor = require("./packages/doctor/package.json").version;
 const versionPatient = require("./packages/patient/package.json").version;
 const versionScheduler = require("./packages/scheduler/package.json").version;
 // path for metro config file
-const pathDoctor = "lib/doctor.js";
-const pathPatient = "lib/doctor.js";
-const pathScheduler = "lib/doctor.js";
+const pathDoctor = "packages/doctor/lib/doctor.js";
+const pathPatient = "packages/patient/lib/patient.js";
+const pathScheduler = "packages/scheduler/lib/scheduler.js";
 // creating options for editing the file
 const options = [
   {
