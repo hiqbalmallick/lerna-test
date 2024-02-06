@@ -1,9 +1,12 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "useWorkspaces": true,
-  "scope": "@test-lerna-sdk",
+  "packages": ["packages/*"],
   "version": "independent",
-  "packages": [
-    "./packages/*"
-  ]
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/*.test.js", "docs/**/*.md"],
+      "message": "chore(release): publish %s"
+    }
+  }
 }
