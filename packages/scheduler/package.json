@@ -1,0 +1,31 @@
+{
+  "name": "@test-sdk/scheduler",
+  "version": "0.2.0",
+  "description": "> TODO: description",
+  "author": "Hamza Iqbal <hiqbalmallick@gmail.com>",
+  "homepage": "https://github.com/hiqbalmallick/lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/scheduler.js",
+  "typings": "lib/scheduler.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiqbalmallick/lerna-test.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "node ./__tests__/scheduler.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hiqbalmallick/lerna-test/issues"
+  }
+}
