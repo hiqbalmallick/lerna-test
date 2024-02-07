@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish": "npx -p lerna@6.0.3 lerna run tsc && npx -p lerna@6.0.3 lerna publish $RELEASE_TYPE --registry=$npmUrl"
+    "publish": "npx -p lerna@6.0.3 lerna run tsc && npx -p lerna@6.0.3 lerna publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
