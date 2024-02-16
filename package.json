@@ -5,8 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "publish": "npx lerna publish",
-    "prepublish": "npx lerna run tsc"
+    "publish": "lerna run tsc && npx lerna publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
