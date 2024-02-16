@@ -5,11 +5,11 @@
     "packages/*"
   ],
   "scripts": {
-    "publish": "npx -p lerna@6.0.3 lerna run tsc && npx -p lerna@6.0.3 lerna publish"
+    "publish": "npx -p lerna@3.22.1 lerna run tsc && npx -p lerna@3.22.1 lerna publish"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
-    "lerna": "^6.0.3",
+    "lerna": "^3.22.1",
     "replace-in-file": "^7.1.0",
     "typescript": "^5.3.3"
   }
